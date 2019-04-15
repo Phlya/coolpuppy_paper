@@ -8,5 +8,5 @@
 #$ -j yes
 #$ -V
 
-coolpup.py $1 ../beds/CH12/CH12_TADs_Rao.bed --outdir pileups --n_proc 4 --nshifts 10 --rescale --local --unbalanced --coverage_norm --rescale_size 87
-coolpup.py $1 ../beds/CH12/CH12_loops_Rao.bed --outdir pileups --n_proc 4 --nshifts 10 --unbalanced --coverage_norm
+coolpup.py $1 ../beds/CH12_TADs_Rao.bed --outdir pileups --n_proc 4 --nshifts 10 --rescale --local --unbalanced --coverage_norm --rescale_size 87
+coolpup.py $1 ../beds/CH12_loops_Rao.bed --outdir pileups --n_proc 4 --nshifts 10 --unbalanced --coverage_norm
