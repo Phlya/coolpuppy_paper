@@ -123,3 +123,7 @@ dmypy.json
 .pyre/
 
 .ipynb_checkpoints
+
+Nagano/pileups/*.np.txt
+timing_subset/pileups/*
+timing_cores/*.np.txt

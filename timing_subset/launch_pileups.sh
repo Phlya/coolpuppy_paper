@@ -13,5 +13,6 @@ start=`date +%s`
 coolpup.py $1 $2 --outdir pileups --n_proc 4 --subset $3 --expected $4  --nshifts 0
 end=`date +%s`
 runtime=$((end-start))
-touch time.txt
-echo $3 $runtime >> time.txt
+f=$(basename ${1/:*/})
+touch time_$f.txt
+echo $3 $runtime >> time_$f.txt

@@ -8,7 +8,7 @@
 #$ -j yes
 #$ -V
 
-coolpup.py ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool::resolutions/5000 $1 --outdir pileups --n_proc 4 --expected ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool_5000.expected.tsv
-coolpup.py ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool::resolutions/5000 $1 --outdir pileups --n_proc 4 --expected ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool_5000.expected.tsv --unbalanced
-coolpup.py ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool::resolutions/5000 $1 --outdir pileups --n_proc 4 --expected ../coolers/Bonev_ES.mm9.mapq_30.1000.mcool_5000.expected.tsv --unbalanced --coverage_norm
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --expected $1\_5000.expected.tsv
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --expected $1\_5000.expected.tsv --unbalanced
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --expected $1\_5000.expected.tsv --unbalanced --coverage_norm
 

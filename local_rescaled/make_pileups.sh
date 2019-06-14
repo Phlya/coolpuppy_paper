@@ -8,5 +8,5 @@
 #$ -j yes
 #$ -V
 
-coolpup.py $1::resolutions/$2 $3 --outdir pileups --n_proc 4 --expected $1_$2.expected.tsv --rescale --rescale_size $4 --local --minsize $5
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --expected $1\_5000.expected.tsv --rescale --rescale_size $3 --local --minsize $4
 
