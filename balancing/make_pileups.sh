@@ -8,7 +8,7 @@
 #$ -j yes
 #$ -V
 
-coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10 --mindist 100000
-coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10 --unbalanced --mindist 100000
-coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10 --unbalanced --coverage_norm --mindist 100000
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10 --unbalanced
+coolpup.py $1::resolutions/5000 $2 --outdir pileups --n_proc 4 --nshifts 10 --unbalanced --coverage_norm
 
